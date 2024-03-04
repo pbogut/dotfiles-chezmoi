@@ -4,7 +4,13 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
+
 [".zshrc.d/plugins/zsh-autosuggestions"]
     type = "git-repo"
     url = "https://github.com/zsh-users/zsh-autosuggestions.git"
+    refreshPeriod = "168h"
+
+[".config/mpv/scripts/mpvDLNA"]
+    type = "git-repo"
+    url = "https://github.com/chachmu/mpvDLNA.git"
     refreshPeriod = "168h"
