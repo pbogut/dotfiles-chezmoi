@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #=================================================
 # name:   run_after_install-gems
-# author: author <author_contact>
+# author: pbogut <pbogut@pbogut.me>
 # date:   05/03/2024
 #=================================================
 self_hash="$(sha1sum "${BASH_SOURCE[0]}" | awk '{print $1}')"
