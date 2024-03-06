@@ -4,6 +4,7 @@
 # author: pbogut <pbogut@pbogut.me>
 # date:   06/03/2024
 #=================================================
+echo "> Update pacman database..."
 sudo pacman -Sy
 
 # if no paru installed then build it with cargo
