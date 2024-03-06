@@ -17,9 +17,10 @@ rustup component add rustfmt --toolchain stable
 cargo install --git https://github.com/pbogut/enrichmail.git
 cargo install --git https://github.com/pbogut/cargo-workspace.git
 
-git clone https://github.com/pbogut/i-use-rust-btw.git ~/.i-use-rust-btw
-cd ~/.i-use-rust-btw && cargo-workspace install
-cd - || exit
+if [[ -d ~/.i-use-rust-btw ]]; then
+    cd ~/.i-use-rust-btw && cargo-workspace install
+    cd - || exit
+fi
 
 cargo install \
     mprocs \

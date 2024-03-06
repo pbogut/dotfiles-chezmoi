@@ -1,3 +1,8 @@
+[".i-use-rust-btw"]
+    type = "git-repo"
+    url = "https://github.com/pbogut/i-use-rust-btw.git"
+    refreshPeriod = "168h"
+
 [".config/dircolors-solarized"]
     type = "archive"
     url = "https://github.com/seebi/dircolors-solarized/archive/master.tar.gz"
