@@ -22,6 +22,6 @@ cd ~/.i-use-rust-btw && cargo-workspace install
 cd - || exit
 
 cargo install \
-  mprocs \
-  rtx-cli \
-  bacon
+    mprocs \
+    rtx-cli \
+    bacon

@@ -21,9 +21,9 @@ xdg-mime default lf.desktop 'inode/directory'
 echo "done"
 
 echo -en "> $(
-  if [[ -n "$(command -v gio)" ]]; then
-    gio mime inode/directory lf.desktop
-  elif [[ -n $(command -v gvfs-mime) ]]; then
-    gvfs-mime --set inode/directory lf.desktop
-  fi
+    if [[ -n "$(command -v gio)" ]]; then
+        gio mime inode/directory lf.desktop
+    elif [[ -n $(command -v gvfs-mime) ]]; then
+        gvfs-mime --set inode/directory lf.desktop
+    fi
 )" && echo " ... done"

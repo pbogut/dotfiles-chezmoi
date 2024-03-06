@@ -4,5 +4,4 @@
 # author: pbogut <pbogut@pbogut.me>
 # date:   06/03/2024
 #=================================================
-go install github.com/nsf/gocode@latest
 go install github.com/pbogut/mails-go-web@latest

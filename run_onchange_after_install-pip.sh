@@ -5,9 +5,9 @@
 # date:   06/03/2024
 #=================================================
 pip install --user \
-  neovim-remote \
-  steamctl \
-  trakt.py \
-  visidata \
-  --upgrade \
-  --break-system-packages
+    neovim-remote \
+    steamctl \
+    trakt.py \
+    visidata \
+    --upgrade \
+    --break-system-packages
