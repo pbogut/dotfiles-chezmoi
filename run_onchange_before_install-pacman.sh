@@ -48,7 +48,7 @@ paru -S \
   maim slop \
   mpv mpv-mpris \
   neomutt \
-  neovim \
+  neovim-git \
   network-manager-applet \
   nm-applet \
   nodejs npm \
@@ -103,7 +103,7 @@ paru -S \
   xrandr \
   xtitle \
   yarn \
-  yt-dlp \
+  yt-dlp-git \
   zenity
 
 if [[ $(hostname) == 'silverspoon' ]]; then
