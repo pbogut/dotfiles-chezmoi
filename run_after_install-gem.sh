@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #=================================================
-# name:   run_after_install-gems
+# name:   run_after_install-gem
 # author: pbogut <pbogut@pbogut.me>
 # date:   05/03/2024
 #=================================================
