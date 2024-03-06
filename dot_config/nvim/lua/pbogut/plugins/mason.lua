@@ -54,6 +54,7 @@ return {
         'templ',
         'typescript-language-server',
         'vim-language-server',
+        'vint',
         'vls',
       },
       auto_update = false,
